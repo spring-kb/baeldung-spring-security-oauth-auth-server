@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>Home</h1>
+    Welcome, <span th:text="${authentication.name}">user</span>!
+    <h2>Authorities</h2>
+    <ul th:each="a : ${authentication.authorities}">
+      <li th:utext="${a.authority}"></li>
+    </ul>
+    <h2>OAuth2AuthenticatedPrincipal</h2>
+    <ul th:each="a : ${authentication.principal.attributes}">
+      <li th:utext="${a}"></li>
+    </ul>
+    <h2>toString</h2>
+    <pre th:utext="${authentication.toString()}"></pre>
+  </body>
+</html>

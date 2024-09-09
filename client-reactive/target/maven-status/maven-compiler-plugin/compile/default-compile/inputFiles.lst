@@ -1,0 +1,4 @@
+/mnt/DATA/dev/studing/kb/spring-kb/spring-security/oauth2/baeldung-spring-security-oauth-auth-server/client-server/src/main/java/com/baeldung/OAuth2ClientApplication.java
+/mnt/DATA/dev/studing/kb/spring-kb/spring-security/oauth2/baeldung-spring-security-oauth-auth-server/client-server/src/main/java/com/baeldung/config/SecurityConfig.java
+/mnt/DATA/dev/studing/kb/spring-kb/spring-security/oauth2/baeldung-spring-security-oauth-auth-server/client-server/src/main/java/com/baeldung/config/WebClientConfig.java
+/mnt/DATA/dev/studing/kb/spring-kb/spring-security/oauth2/baeldung-spring-security-oauth-auth-server/client-server/src/main/java/com/baeldung/web/ArticlesController.java
